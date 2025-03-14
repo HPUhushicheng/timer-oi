@@ -1,0 +1,60 @@
+appId: com.wefonk.timeroi
+productName: 拾光
+directories:
+  buildResources: build
+files:
+  - '!**/.vscode/*'
+  - '!src/*'
+  - '!.upload/*'
+  - '!doc/*'
+  - '!electron.vite.config.{js,ts,mjs,cjs}'
+  - '!{.eslintignore,.eslintrc.cjs,.prettierignore,.prettierrc.yaml,dev-app-update.yml,CHANGELOG.md,README.md}'
+  - '!{.env,.env.*,.npmrc,pnpm-lock.yaml}'
+  - '!{tsconfig.json,tsconfig.node.json,tsconfig.web.json}'
+  - '!keys/*'
+  - '!static/*'
+  - '!.gitlab-ci.yml'
+  - '!test.js'
+  - '!electron-builder-test.yml'
+  - '!electron-builder.tmp.yml'
+  - '!test/*'
+  - '!*.config.ts'
+asarUnpack:
+  - resources/**
+win:
+  executableName: 拾光
+  icon: resources/win-tray.ico
+nsis:
+  artifactName: ${name}-${version}-setup.${ext}
+  shortcutName: ${productName}
+  uninstallDisplayName: ${productName}
+  createDesktopShortcut: always
+  allowToChangeInstallationDirectory: true
+  oneClick: false
+afterSign: scripts/notarize.js
+afterPack: scripts/afterPack.js
+mac:
+  entitlementsInherit: build/entitlements.mac.plist
+  extendInfo:
+    - NSCameraUsageDescription: Application requests access to the device's camera.
+    - NSMicrophoneUsageDescription: Application requests access to the device's microphone.
+    - NSDocumentsFolderUsageDescription: Application requests access to the user's Documents folder.
+    - NSDownloadsFolderUsageDescription: Application requests access to the user's Downloads folder.
+  gatekeeperAssess: false
+  category: public.app-category.utilities
+dmg:
+  artifactName: ${name}-${version}-${arch}.${ext}
+linux:
+  target:
+    - AppImage
+    - tar.gz
+  maintainer: comefly
+  category: Utility
+appImage:
+  artifactName: ${name}-${version}.${ext}
+npmRebuild: true
+publish:
+  provider: generic
+  url: https://deepchat.thinkinai.xyz/auth/
+electronDownload:
+  mirror: https://npmmirror.com/mirrors/electron/
