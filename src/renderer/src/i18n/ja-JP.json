@@ -1,0 +1,338 @@
+{
+  "common": {
+    "enabled": "有効",
+    "disabled": "無効",
+    "loading": "読み込み中...",
+    "copySuccess": "コピーしました!",
+    "copyCode": "コードをコピー",
+    "copy": "コピー",
+    "paste": "貼り付け",
+    "newChat": "新しいチャット",
+    "newTopic": "新しいトピック",
+    "cancel": "キャンセル",
+    "close": "閉じる",
+    "error": {
+      "requestFailed": "リクエストに失敗しました...",
+      "createChatFailed": "チャットの作成に失敗しました",
+      "selectChatFailed": "チャットの選択に失敗しました",
+      "renameChatFailed": "チャットの名前変更に失敗しました",
+      "deleteChatFailed": "チャットの削除に失敗しました",
+      "userCanceledGeneration": "ユーザーが生成をキャンセルしました",
+      "sessionInterrupted": "セッションが中断され、生成が完了しませんでした",
+      "cleanMessagesFailed": "チャットメッセージのクリーンアップに失敗しました",
+      "noModelResponse": "モデルは何も返しませんでした。タイムアウトの可能性があります"
+    },
+    "resetDataConfirmTitle": "すべてのデータをリセットしますか？",
+    "resetDataConfirmDescription": "すべてのデータがデフォルト設定にリセットされます。この操作は元に戻せません。",
+    "proxyMode": "プロキシモード",
+    "proxyModeSelect": "プロキシモードを選択",
+    "proxyModeSystem": "システムプロキシ",
+    "proxyModeNone": "プロキシなし",
+    "proxyModeCustom": "カスタムプロキシ",
+    "customProxyUrl": "カスタムプロキシURL",
+    "customProxyUrlPlaceholder": "例: http://127.0.0.1:7890",
+    "invalidProxyUrl": "無効なプロキシURL、有効なhttp/https URLを入力してください"
+  },
+  "update": {
+    "newVersion": "新しいバージョンが見つかりました",
+    "version": "バージョン",
+    "releaseDate": "リリース日",
+    "releaseNotes": "リリースノート",
+    "later": "後で",
+    "githubDownload": "Github ダウンロード",
+    "netdiskDownload": "クラウドダウンロード",
+    "checkUpdate": "アップデートを確認する"
+  },
+  "routes": {
+    "chat": "チャット",
+    "welcome": "ようこそ",
+    "settings": "設定",
+    "settings-common": "一般設定",
+    "settings-provider": "プロバイダー設定",
+    "settings-about": "について"
+  },
+  "chat": {
+    "input": {
+      "placeholder": "メッセージを入力...",
+      "fileArea": "ファイルエリア",
+      "inputArea": "入力エリア",
+      "functionSwitch": "機能スイッチ",
+      "fileSelect": "ファイル選択"
+    },
+    "features": {
+      "deepThinking": "深い思考",
+      "webSearch": "ウェブ検索",
+      "deepThinkingProgress": "深い思考中...",
+      "thinkingDuration": "({0}秒かかりました)",
+      "artifactThinking": "アーティファクト思考"
+    },
+    "search": {
+      "results": "{0}件のウェブページが見つかりました",
+      "searching": "検索中...",
+      "title": "検索結果",
+      "description": "{0}件の関連結果が見つかりました"
+    }
+  },
+  "model": {
+    "search": {
+      "placeholder": "モデルを検索..."
+    },
+    "error": {
+      "loadFailed": "モデルの読み込みに失敗しました"
+    },
+    "type": {
+      "custom": "カスタムモデル",
+      "official": "公式モデル"
+    },
+    "add": {
+      "namePlaceholder": "モデル名",
+      "idPlaceholder": "モデルID",
+      "contextLengthPlaceholder": "コンテキストの長さ",
+      "maxTokensPlaceholder": "最大トークン数"
+    },
+    "actions": {
+      "add": "モデルを追加",
+      "enableAll": "すべて有効にする",
+      "disableAll": "すべて無効にする"
+    },
+    "tags": {
+      "reasoning": "推論",
+      "chat": "チャット",
+      "code": "コード",
+      "writing": "執筆",
+      "analysis": "分析"
+    }
+  },
+  "thread": {
+    "actions": {
+      "rename": "名前を変更",
+      "delete": "削除"
+    }
+  },
+  "dialog": {
+    "cancel": "キャンセル",
+    "confirm": "確認",
+    "close": "閉じる",
+    "delete": {
+      "title": "このチャットを削除してもよろしいですか？",
+      "description": "この操作は元に戻せませんので、慎重に行ってください。",
+      "confirm": "削除"
+    },
+    "rename": {
+      "title": "チャットの名前を変更",
+      "description": "新しいチャット名を入力してください。"
+    },
+    "error": {
+      "title": "エラー"
+    }
+  },
+  "settings": {
+    "title": "設定",
+    "common": {
+      "title": "一般設定",
+      "resetData": "データをリセット",
+      "language": "言語",
+      "languageSelect": "言語を選択",
+      "searchEngine": "検索エンジン",
+      "searchEngineSelect": "検索エンジンを選択",
+      "searchAssistantModel": "検索アシスタントモデル",
+      "selectModel": "モデルを選択",
+      "proxyMode": "プロキシモード",
+      "proxyModeSelect": "プロキシモードを選択",
+      "proxyModeSystem": "システムプロキシ",
+      "proxyModeNone": "プロキシなし",
+      "proxyModeCustom": "カスタムプロキシ",
+      "customProxyUrl": "カスタムプロキシURL",
+      "customProxyUrlPlaceholder": "例: http://127.0.0.1:7890",
+      "invalidProxyUrl": "無効なプロキシURL、有効なhttp/https URLを入力してください"
+    },
+    "model": {
+      "title": "モデル設定",
+      "systemPrompt": {
+        "label": "システムプロンプト",
+        "placeholder": "システムプロンプトを入力してください...",
+        "description": "AIアシスタントのシステムプロンプトを設定し、その行動と役割を定義します"
+      },
+      "temperature": {
+        "label": "モデルの温度",
+        "description": "出力のランダム性を制御します。高い値はより創造的な応答を生成します"
+      },
+      "contextLength": {
+        "label": "コンテキストの長さ",
+        "description": "会話のコンテキストの最大長を設定します"
+      },
+      "responseLength": {
+        "label": "応答の長さ",
+        "description": "AIの応答の最大長を設定します"
+      },
+      "artifacts": {
+        "description": "Artifacts機能を有効にすると、AIはより豊かなコンテンツを生成できます"
+      }
+    },
+    "provider": {
+      "enable": "サービスを有効にする",
+      "urlPlaceholder": "API URLを入力してください",
+      "keyPlaceholder": "API Keyを入力してください",
+      "verifyKey": "キーを検証",
+      "howToGet": "取得方法",
+      "getKeyTip": "以下へアクセスしてください",
+      "getKeyTipEnd": "API Keyを取得する",
+      "urlFormat": "API例：{defaultUrl}",
+      "modelList": "モデル一覧",
+      "enableModels": "モデルを有効にする",
+      "disableAllModels": "すべてのモデルを無効にする",
+      "modelsEnabled": "モデルが有効になりました",
+      "verifyLink": "検証リンク",
+      "syncModelsFailed": "モデルの同期に失敗しました...",
+      "addCustomProvider": "カスタムプロバイダーを追加",
+      "delete": "削除",
+      "stopModel": "モデルを停止",
+      "pulling": "取得中...",
+      "runModel": "モデルを実行",
+      "dialog": {
+        "disableModel": {
+          "title": "モデルを無効にする確認",
+          "content": "モデル \"{name}\" を無効にしてもよろしいですか？",
+          "confirm": "無効にする"
+        },
+        "configModels": {
+          "title": "モデルリストを構成"
+        },
+        "disableAllModels": {
+          "title": "すべてのモデルを無効にする確認",
+          "content": "モデル \"{name}\" のすべてのモデルを無効にしてもよろしいですか？",
+          "confirm": "すべて無効にする"
+        },
+        "verify": {
+          "missingFields": "API KeyとAPI URLを入力してください",
+          "failed": "検証に失敗しました",
+          "success": "検証に成功しました"
+        },
+        "addCustomProvider": {
+          "title": "カスタムプロバイダーを追加",
+          "description": "プロバイダーの必要な情報を入力してください",
+          "name": "名前",
+          "namePlaceholder": "プロバイダー名を入力してください",
+          "apiType": "APIタイプ",
+          "apiTypePlaceholder": "APIタイプを選択してください",
+          "apiKey": "APIキー",
+          "apiKeyPlaceholder": "APIキーを入力してください",
+          "baseUrl": "API URL",
+          "baseUrlPlaceholder": "API URLを入力してください",
+          "enable": "プロバイダーを有効にする"
+        },
+        "deleteProvider": {
+          "title": "プロバイダーの削除確認",
+          "content": "プロバイダー \"{name}\" を削除してもよろしいですか？この操作は元に戻せません。",
+          "confirm": "削除"
+        },
+        "deleteModel": {
+          "title": "モデルの削除確認",
+          "content": "モデル \"{name}\" を削除してもよろしいですか？この操作は元に戻せません。",
+          "confirm": "削除"
+        },
+        "pullModel": {
+          "title": "モデルを取得",
+          "pull": "取得"
+        }
+      },
+      "pullModels": "モデルを取得",
+      "refreshModels": "モデルを更新",
+      "modelsRunning": "実行中のモデル",
+      "runningModels": "実行中のモデル",
+      "noRunningModels": "実行中のモデルはありません",
+      "deleteModel": "モデルを削除",
+      "deleteModelConfirm": "モデル \"{name}\" を削除してもよろしいですか？この操作は元に戻せません。",
+      "noLocalModels": "ローカルモデルはありません",
+      "localModels": "ローカルモデル"
+    }
+  },
+  "welcome": {
+    "steps": {
+      "welcome": {
+        "title": "ようこそ",
+        "description": "DeepChatの設定を始めましょう"
+      },
+      "provider": {
+        "title": "モデルプロバイダー",
+        "description": "お好みのモデルプロバイダーを選択してください"
+      },
+      "configuration": {
+        "title": "モデル設定",
+        "description": "使用したいモデルを設定してください"
+      },
+      "complete": {
+        "title": "完了",
+        "description": "すべての準備が整いました！"
+      }
+    },
+    "title": "DeepChatへようこそ",
+    "description": "セットアップを完了しましょう",
+    "provider": {
+      "select": "プロバイダーを選択",
+      "apiUrl": "API URL",
+      "apiKey": "API キー",
+      "verifyLink": "リンクを検証"
+    },
+    "complete": {
+      "title": "すべて完了！",
+      "description": "セットアップが完了しました。始めましょう！"
+    },
+    "buttons": {
+      "getStarted": "始める",
+      "next": "次へ",
+      "back": "戻る"
+    }
+  },
+  "newThread": {
+    "greeting": "こんにちは",
+    "prompt": "今日は何を聞きたいですか？"
+  },
+  "about": {
+    "title": "DeepChat",
+    "description": "DeepChatはクロスプラットフォームのAIクライアントで、より多くの人々にAIを便利に使用できるよう努めています。",
+    "website": "ウェブサイトを訪問",
+    "disclaimerButton": "免責条項",
+    "disclaimerTitle": "利用規約声明",
+    "checkUpdateButton": "アップデートを確認する",
+    "deviceInfo": {
+      "title": "デバイス情報",
+      "platform": "プラットフォーム",
+      "arch": "アーキテクチャ",
+      "cpuModel": "CPUモデル",
+      "totalMemory": "総メモリ",
+      "osVersion": "システムバージョン"
+    }
+  },
+  "searchDisclaimer": "DeepChatは補助ツールとして機能し、ユーザーが検索を開始する際に、検索エンジンから返された公開データを整理し要約することで、ユーザーが検索結果をより便利に確認し理解できるようにします。\n\n1. **公開データの使用**  \n本ソフトウェアは、対象のウェブサイトまたは検索エンジンから公開され、ログインなしでアクセスできるデータのみを処理します。使用前に、必ず対象のウェブサイトまたは検索エンジンのサービス規約を確認し、遵守して、使用行為が合法であることを確認してください。\n\n2. **情報の正確性と責任**  \n本ソフトウェアが整理し生成した内容は参考用であり、法律、ビジネス、またはその他のアドバイスのいかなる形式も構成しません。開発者は検索結果の正確性、完全性、適時性、または合法性について保証せず、本ソフトウェアの使用に起因するいかなる結果もユーザーの責任となります。\n\n3. **免責条項**  \n本ソフトウェアは「現状のまま」提供され、開発者はその性能、安定性、または適用性について明示的または暗示的な保証や責任を負いません。ユーザーが本ソフトウェアを使用する過程で、関連する法律や規制、または対象のウェブサイトの規定に違反した場合に生じるいかなる争い、損失、または法的責任についても、開発者は一切責任を負いません。\n\n4. **ユーザーの自律**  \nユーザーは本ソフトウェアを使用する前に、自身の使用行為が他者の知的財産権、営業秘密、またはその他の合法的権利を侵害しないことを十分に理解し確認する必要があります。ユーザーの不適切な使用に起因するいかなる法的紛争や結果についても、ユーザーが全責任を負います。\n\n本ソフトウェアを使用することにより、ユーザーはこの免責条項のすべての条件を読み、理解し、同意したことを示します。質問がある場合は、専門の法律顧問に相談してください。",
+  "artifacts": {
+    "clickToOpen": "クリックして開く",
+    "codeSnippet": "コードスニペット",
+    "function": "関数",
+    "class": "クラス",
+    "vueComponent": "Vueコンポーネント",
+    "moduleImport": "モジュールインポート",
+    "variableDefinition": "{name}変数定義",
+    "markdownDocument": "Markdownドキュメント",
+    "htmlDocument": "HTMLドキュメント",
+    "svgImage": "SVG画像",
+    "flowchart": "フローチャート",
+    "sequenceDiagram": "シーケンス図",
+    "classDiagram": "クラス図",
+    "stateDiagram": "状態図",
+    "erDiagram": "ER図",
+    "ganttChart": "ガントチャート",
+    "pieChart": "円グラフ",
+    "mermaidDiagram": "Mermaid図",
+    "flowchartOf": "{name}のフローチャート",
+    "sequenceDiagramBetween": "{participants}間のシーケンス図",
+    "classDiagramOf": "{name}のクラス図",
+    "stateDiagramOf": "{name}の状態図",
+    "erDiagramOf": "{name}のER図",
+    "pieChartOf": "{name}の円グラフ",
+    "unknownDocument": "不明なドキュメント",
+    "preview": "プレビュー",
+    "code": "コード",
+    "export": "エクスポート"
+  }
+}

@@ -1,0 +1,353 @@
+{
+  "common": {
+    "loading": "加载中...",
+    "copy": "复制",
+    "paste": "粘贴",
+    "copySuccess": "已复制!",
+    "copyCode": "复制代码",
+    "newChat": "新会话",
+    "newTopic": "新话题",
+    "cancel": "取消",
+    "enabled": "已启用",
+    "disabled": "已禁用",
+    "disclaimer": "免责声明",
+    "close": "关闭",
+    "error": {
+      "requestFailed": "请求失败...",
+      "createChatFailed": "创建会话失败",
+      "selectChatFailed": "选择会话失败",
+      "renameChatFailed": "重命名会话失败",
+      "deleteChatFailed": "删除会话失败",
+      "cleanMessagesFailed": "清空会话消息失败",
+      "userCanceledGeneration": "用户取消了生成",
+      "sessionInterrupted": "会话意外中断，生成未完成",
+      "noModelResponse": "模型未返回任何内容，可能是超时了"
+    },
+    "resetDataConfirmTitle": "确定要重置所有数据吗？",
+    "resetDataConfirmDescription": "这将会把所有数据恢复到默认设置。此操作无法撤销。",
+    "title": "通用设置",
+    "resetData": "重置数据",
+    "language": "语言",
+    "languageSelect": "选择语言",
+    "searchEngine": "搜索引擎",
+    "searchEngineSelect": "选择搜索引擎",
+    "searchAssistantModel": "搜索助手模型",
+    "selectModel": "选择模型",
+    "proxyMode": "代理模式",
+    "proxyModeSelect": "选择代理模式",
+    "proxyModeSystem": "系统代理",
+    "proxyModeNone": "不使用代理",
+    "proxyModeCustom": "自定义代理",
+    "customProxyUrl": "自定义代理地址",
+    "customProxyUrlPlaceholder": "例如: http://127.0.0.1:7890",
+    "invalidProxyUrl": "无效的代理地址，请输入有效的 http/https URL"
+  },
+  "update": {
+    "newVersion": "发现新版本",
+    "version": "版本",
+    "releaseDate": "发布日期",
+    "releaseNotes": "更新内容",
+    "later": "稍后再说",
+    "githubDownload": "Github下载",
+    "netdiskDownload": "网盘下载",
+    "checkUpdate": "检查更新"
+  },
+  "routes": {
+    "chat": "聊天",
+    "welcome": "欢迎",
+    "settings": "设置",
+    "settings-common": "通用设置",
+    "settings-provider": "服务商设置",
+    "settings-about": "关于"
+  },
+  "chat": {
+    "input": {
+      "placeholder": "输入消息...",
+      "fileArea": "文件区域",
+      "inputArea": "输入区域",
+      "functionSwitch": "功能开关",
+      "fileSelect": "选择文件"
+    },
+    "features": {
+      "deepThinking": "深度思考",
+      "webSearch": "联网搜索",
+      "deepThinkingProgress": "深度思考中...",
+      "thinkingDuration": "（用时 {0} 秒）",
+      "artifactThinking": "artifact 思考"
+    },
+    "search": {
+      "results": "已搜索到{0}个网页",
+      "searching": "搜索中...",
+      "title": "搜索结果",
+      "description": "共找到 {0} 条相关结果"
+    }
+  },
+  "model": {
+    "search": {
+      "placeholder": "搜索模型..."
+    },
+    "error": {
+      "loadFailed": "加载模型失败"
+    },
+    "type": {
+      "custom": "自定义模型",
+      "official": "官方模型"
+    },
+    "add": {
+      "namePlaceholder": "模型名称",
+      "idPlaceholder": "模型ID",
+      "contextLengthPlaceholder": "上下文长度",
+      "maxTokensPlaceholder": "最大token"
+    },
+    "actions": {
+      "add": "添加模型",
+      "enableAll": "全部启用",
+      "disableAll": "全部禁用"
+    },
+    "tags": {
+      "reasoning": "推理",
+      "chat": "对话",
+      "code": "代码",
+      "writing": "写作",
+      "analysis": "分析"
+    }
+  },
+  "thread": {
+    "actions": {
+      "rename": "重命名",
+      "delete": "删除",
+      "cleanMessages": "清空消息"
+    }
+  },
+  "dialog": {
+    "cancel": "取消",
+    "confirm": "确认",
+    "close": "关闭",
+    "delete": {
+      "title": "确定要删除这个会话吗？",
+      "description": "此操作无法撤销，请谨慎操作。",
+      "confirm": "删除"
+    },
+    "rename": {
+      "title": "重命名会话",
+      "description": "请输入新的会话名称。"
+    },
+    "cleanMessages": {
+      "title": "清空会话消息",
+      "description": "清空消息会删除会话下所有消息和文件，确定要继续吗？",
+      "confirm": "清空"
+    },
+    "error": {
+      "title": "错误"
+    }
+  },
+  "settings": {
+    "title": "设置",
+    "common": {
+      "title": "通用设置",
+      "resetData": "重置数据",
+      "language": "语言",
+      "languageSelect": "选择语言",
+      "searchEngine": "搜索引擎",
+      "searchEngineSelect": "选择搜索引擎",
+      "searchAssistantModel": "搜索助手模型",
+      "selectModel": "选择模型",
+      "proxyMode": "代理模式",
+      "proxyModeSelect": "选择代理模式",
+      "proxyModeSystem": "系统代理",
+      "proxyModeNone": "不使用代理",
+      "proxyModeCustom": "自定义代理",
+      "customProxyUrl": "自定义代理地址",
+      "customProxyUrlPlaceholder": "例如: http://127.0.0.1:7890",
+      "invalidProxyUrl": "无效的代理地址，请输入有效的 http/https URL"
+    },
+    "model": {
+      "title": "模型设置",
+      "systemPrompt": {
+        "label": "系统提示词",
+        "placeholder": "请输入系统提示词...",
+        "description": "设置AI助手的系统提示词，用于定义其行为和角色"
+      },
+      "temperature": {
+        "label": "模型温度",
+        "description": "控制输出的随机性，较高的值会产生更具创造性的响应"
+      },
+      "contextLength": {
+        "label": "上下文长度",
+        "description": "设置对话上下文的最大长度"
+      },
+      "responseLength": {
+        "label": "返回文本长度",
+        "description": "设置AI响应的最大长度"
+      },
+      "artifacts": {
+        "description": "启用 Artifacts 功能可以让 AI 生成更丰富的内容"
+      }
+    },
+    "provider": {
+      "enable": "开启服务",
+      "urlPlaceholder": "请输入API URL",
+      "keyPlaceholder": "请输入API Key",
+      "verifyKey": "验证密钥",
+      "howToGet": "如何获取",
+      "getKeyTip": "请前往",
+      "getKeyTipEnd": "获取API Key",
+      "urlFormat": "API样例：{defaultUrl}",
+      "modelList": "模型列表",
+      "enableModels": "启用模型",
+      "disableAllModels": "禁用全部",
+      "modelsEnabled": "模型已经启用",
+      "verifyLink": "验证链接",
+      "syncModelsFailed": "同步模型失败...",
+      "addCustomProvider": "添加自定义服务商",
+      "delete": "删除",
+      "stopModel": "停止模型",
+      "pulling": "拉取中...",
+      "runModel": "运行模型",
+      "dialog": {
+        "disableModel": {
+          "title": "确认禁用模型",
+          "content": "是否确认禁用模型 \"{name}\"？",
+          "confirm": "禁用"
+        },
+        "disableAllModels": {
+          "title": "确认禁用全部模型",
+          "content": "是否确认禁用 \"{name}\" 的全部模型？",
+          "confirm": "全部禁用"
+        },
+        "configModels": {
+          "title": "配置模型列表"
+        },
+        "verify": {
+          "missingFields": "请输入 API Key 和 API URL",
+          "failed": "验证失败",
+          "success": "验证成功"
+        },
+        "addCustomProvider": {
+          "title": "添加自定义服务商",
+          "description": "请填写服务商的必要信息",
+          "name": "名称",
+          "namePlaceholder": "请输入服务商名称",
+          "apiType": "API类型",
+          "apiTypePlaceholder": "请选择API类型",
+          "apiKey": "API密钥",
+          "apiKeyPlaceholder": "请输入API密钥",
+          "baseUrl": "API地址",
+          "baseUrlPlaceholder": "请输入API基础地址",
+          "enable": "启用服务商"
+        },
+        "deleteProvider": {
+          "title": "确认删除服务商",
+          "content": "是否确认删除服务商 \"{name}\"？此操作不可恢复。",
+          "confirm": "删除"
+        },
+        "deleteModel": {
+          "title": "确认删除模型",
+          "content": "是否确认删除模型 \"{name}\"？此操作不可恢复。",
+          "confirm": "删除"
+        },
+        "pullModel": {
+          "title": "拉取模型",
+          "pull": "拉取"
+        }
+      },
+      "pullModels": "拉取模型",
+      "refreshModels": "刷新模型",
+      "modelsRunning": "模型正在运行",
+      "runningModels": "运行中的模型",
+      "noRunningModels": "没有运行中的模型",
+      "deleteModel": "删除模型",
+      "deleteModelConfirm": "是否确认删除模型 \"{name}\"？此操作不可恢复。",
+      "noLocalModels": "没有本地模型",
+      "localModels": "本地模型"
+    }
+  },
+  "welcome": {
+    "steps": {
+      "welcome": {
+        "title": "欢迎",
+        "description": "让我们开始设置 拾光!"
+      },
+      "provider": {
+        "title": "模型服务商",
+        "description": "选择您偏好的模型服务商"
+      },
+      "configuration": {
+        "title": "模型配置",
+        "description": "配置您想要使用的模型"
+      },
+      "complete": {
+        "title": "完成",
+        "description": "一切就绪，可以开始使用了！"
+      }
+    },
+    "title": "欢迎使用 拾光!",
+    "description": "让我们一起完成设置过程",
+    "provider": {
+      "select": "选择服务商",
+      "apiUrl": "API 地址",
+      "apiKey": "API 密钥",
+      "verifyLink": "验证链接"
+    },
+    "complete": {
+      "title": "全部完成！",
+      "description": "您已完成设置过程，让我们开始吧！"
+    },
+    "buttons": {
+      "getStarted": "开始使用",
+      "next": "下一步",
+      "back": "返回"
+    }
+  },
+  "newThread": {
+    "greeting": "你好呀",
+    "prompt": "今天你想问点什么？"
+  },
+  "about": {
+    "title": "拾光",
+    "description": "拾光是一个跨平台的'思考+互联+记录'的实验室AI助手类客户端，致力于让更多人便捷地使用AI。",
+    "website": "为我们star",
+    "disclaimerButton": "免责声明",
+    "disclaimerTitle": "使用条款声明",
+    "checkUpdateButton": "检查更新",
+    "deviceInfo": {
+      "title": "设备信息",
+      "platform": "平台",
+      "arch": "架构",
+      "cpuModel": "CPU型号",
+      "totalMemory": "总内存",
+      "osVersion": "系统版本"
+    }
+  },
+  "searchDisclaimer": "拾光AI 仅作为辅助工具，用户在主动发起搜索时，对搜索引擎返回的公开数据进行整理和总结，帮助用户更方便地查看和理解搜索结果。\n\n1. **公开数据使用**  \n本软件仅处理目标网站或搜索引擎公开、无需登录即可访问的数据。用户在使用前，请务必查阅并遵守目标网站或搜索引擎的服务条款，确保其使用行为合法合规。  \n\n2. **信息准确性与责任**  \n本软件所整理和生成的内容仅供参考，并不构成任何形式的法律、商业或其他建议。开发者对搜索结果的准确性、完整性、及时性或合法性不作任何保证，因使用本软件所产生的任何后果均由用户自行承担。  \n\n3. **免责条款**  \n本软件以\"现状\"提供，开发者不对其性能、稳定性及适用性承担任何明示或暗示的保证或责任。用户使用本软件的过程中，如因违反相关法律法规或目标网站规定而引发的任何争议、损失或法律责任，开发者均不承担任何责任。  \n\n4. **用户自律**  \n用户在使用本软件前，应充分了解并确认自己的使用行为不会侵犯他人的知识产权、商业秘密或其他合法权益。对于因用户不当使用本软件而产生的任何法律纠纷和后果，均由用户自行负责。  \n\n用本软件即表示用户已阅读、理解并同意本免责声明的所有条款。如有疑问，请咨询专业法律顾问。",
+  "artifacts": {
+    "clickToOpen": "点击打开",
+    "codeSnippet": "代码片段",
+    "function": " 函数",
+    "class": " 类",
+    "vueComponent": "Vue 组件",
+    "moduleImport": "模块导入",
+    "variableDefinition": "{name} 变量定义",
+    "markdownDocument": "Markdown 文档",
+    "htmlDocument": "HTML 文档",
+    "svgImage": "SVG 图像",
+    "flowchart": "流程图",
+    "sequenceDiagram": "时序图",
+    "classDiagram": "类图",
+    "stateDiagram": "状态图",
+    "erDiagram": "ER图",
+    "ganttChart": "甘特图",
+    "pieChart": "饼图",
+    "mermaidDiagram": "Mermaid 图表",
+    "flowchartOf": "{name}的流程图",
+    "sequenceDiagramBetween": "{participants}之间的时序图",
+    "classDiagramOf": "{name}的类图",
+    "stateDiagramOf": "{name}的状态图",
+    "erDiagramOf": "{name}的ER图",
+    "pieChartOf": "{name}的饼图",
+    "unknownDocument": "未知文档",
+    "preview": "预览",
+    "code": "代码",
+    "export": "导出"
+  }
+}

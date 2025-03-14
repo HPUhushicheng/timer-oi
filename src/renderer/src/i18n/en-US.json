@@ -1,0 +1,345 @@
+{
+  "common": {
+    "enabled": "Enabled",
+    "disabled": "Disabled",
+    "loading": "Loading...",
+    "copySuccess": "Copied!",
+    "copyCode": "Copy Code",
+    "copy": "Copy",
+    "paste": "Paste",
+    "newChat": "New Chat",
+    "newTopic": "New Topic",
+    "cancel": "Cancel",
+    "close": "Close",
+    "error": {
+      "requestFailed": "Request failed...",
+      "createChatFailed": "Failed to create chat",
+      "selectChatFailed": "Failed to select chat",
+      "renameChatFailed": "Failed to rename chat",
+      "deleteChatFailed": "Failed to delete chat",
+      "cleanMessagesFailed": "Failed to clean messages",
+      "userCanceledGeneration": "User canceled generation",
+      "sessionInterrupted": "Session was unexpectedly interrupted, generation is incomplete",
+      "noModelResponse": "Model did not return any content, it may have timed out"
+    },
+    "resetDataConfirmTitle": "Reset All Data?",
+    "resetDataConfirmDescription": "This will reset all your data to default settings. This action cannot be undone.",
+    "proxyMode": "Proxy Mode",
+    "proxyModeSelect": "Select Proxy Mode",
+    "proxyModeSystem": "System Proxy",
+    "proxyModeNone": "No Proxy",
+    "proxyModeCustom": "Custom Proxy",
+    "customProxyUrl": "Custom Proxy URL",
+    "customProxyUrlPlaceholder": "Example: http://127.0.0.1:7890",
+    "invalidProxyUrl": "Invalid proxy URL, please enter a valid http/https URL"
+  },
+  "update": {
+    "newVersion": "New Version Found",
+    "version": "Version",
+    "releaseDate": "Release Date",
+    "releaseNotes": "Release Notes",
+    "later": "Later",
+    "githubDownload": "Github Download",
+    "netdiskDownload": "Cloud Download",
+    "checkUpdate": "Check for Updates"
+  },
+  "routes": {
+    "chat": "Chat",
+    "welcome": "Welcome",
+    "settings": "Settings",
+    "settings-common": "Common Settings",
+    "settings-provider": "Provider Settings",
+    "settings-about": "About"
+  },
+  "chat": {
+    "input": {
+      "placeholder": "Type a message...",
+      "fileArea": "File Area",
+      "inputArea": "Input Area",
+      "functionSwitch": "Function Switch",
+      "fileSelect": "File Select"
+    },
+    "features": {
+      "deepThinking": "Deep Thinking",
+      "webSearch": "Web Search",
+      "deepThinkingProgress": "Deep Thinking in progress...",
+      "thinkingDuration": "(Took {0} seconds)",
+      "artifactThinking": "Artifact Thinking"
+    },
+    "search": {
+      "results": "Found {0} web pages",
+      "searching": "Searching...",
+      "title": "Search Results",
+      "description": "Found {0} related results"
+    }
+  },
+  "model": {
+    "search": {
+      "placeholder": "Search models..."
+    },
+    "error": {
+      "loadFailed": "Failed to load model"
+    },
+    "type": {
+      "custom": "Custom Model",
+      "official": "Official Model"
+    },
+    "add": {
+      "namePlaceholder": "Model Name",
+      "idPlaceholder": "Model ID",
+      "contextLengthPlaceholder": "Context Length",
+      "maxTokensPlaceholder": "Max Tokens"
+    },
+    "actions": {
+      "add": "Add Model",
+      "enableAll": "Enable All",
+      "disableAll": "Disable All"
+    },
+    "tags": {
+      "reasoning": "Reasoning",
+      "chat": "Chat",
+      "code": "Code",
+      "writing": "Writing",
+      "analysis": "Analysis"
+    }
+  },
+  "thread": {
+    "actions": {
+      "rename": "Rename",
+      "delete": "Delete",
+      "cleanMessages": "Clean Messages"
+    }
+  },
+  "dialog": {
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "close": "Close",
+    "delete": {
+      "title": "Are you sure you want to delete this chat?",
+      "description": "This action cannot be undone, please proceed with caution.",
+      "confirm": "Delete"
+    },
+    "rename": {
+      "title": "Rename Chat",
+      "description": "Please enter a new chat name."
+    },
+    "error": {
+      "title": "Error"
+    },
+    "cleanMessages": {
+      "title": "Clean Chat Messages",
+      "description": "Cleaning messages will delete all messages and files in this conversation. Are you sure you want to continue?",
+      "confirm": "Clean"
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "common": {
+      "title": "Common Settings",
+      "resetData": "Reset Data",
+      "language": "Language",
+      "languageSelect": "Select Language",
+      "searchEngine": "Search Engine",
+      "searchEngineSelect": "Select Search Engine",
+      "searchAssistantModel": "Search Assistant Model",
+      "selectModel": "Select Model",
+      "proxyMode": "Proxy Mode",
+      "proxyModeSelect": "Select Proxy Mode",
+      "proxyModeSystem": "System Proxy",
+      "proxyModeNone": "No Proxy",
+      "proxyModeCustom": "Custom Proxy",
+      "customProxyUrl": "Custom Proxy URL",
+      "customProxyUrlPlaceholder": "e.g. http://127.0.0.1:7890",
+      "invalidProxyUrl": "Invalid proxy URL, please enter a valid http/https URL"
+    },
+    "model": {
+      "title": "Model Settings",
+      "systemPrompt": {
+        "label": "System Prompt",
+        "placeholder": "Please enter the system prompt...",
+        "description": "Set the system prompt for the AI assistant to define its behavior and role"
+      },
+      "temperature": {
+        "label": "Model Temperature",
+        "description": "Controls the randomness of the output; higher values produce more creative responses"
+      },
+      "contextLength": {
+        "label": "Context Length",
+        "description": "Set the maximum length of the conversation context"
+      },
+      "responseLength": {
+        "label": "Response Length",
+        "description": "Set the maximum length of the AI response"
+      },
+      "artifacts": {
+        "description": "Enabling the Artifacts feature allows the AI to generate richer content"
+      }
+    },
+    "provider": {
+      "enable": "Enable Service",
+      "urlPlaceholder": "Please enter API URL",
+      "keyPlaceholder": "Please enter API Key",
+      "verifyKey": "Verify Key",
+      "howToGet": "How to get",
+      "getKeyTip": "Please visit",
+      "getKeyTipEnd": "to get API Key",
+      "urlFormat": "API Example: {defaultUrl}",
+      "modelList": "Model List",
+      "enableModels": "Enable Models",
+      "disableAllModels": "Disable All Models",
+      "modelsEnabled": "Models have been enabled",
+      "verifyLink": "Verify Link",
+      "syncModelsFailed": "Failed to sync models...",
+      "addCustomProvider": "Add Custom Provider",
+      "delete": "Delete",
+      "stopModel": "Stop Model",
+      "pulling": "Pulling...",
+      "runModel": "Run Model",
+      "dialog": {
+        "disableModel": {
+          "title": "Confirm Disable Model",
+          "content": "Are you sure you want to disable the model \"{name}\"?",
+          "confirm": "Disable"
+        },
+        "disableAllModels": {
+          "title": "Confirm Disable All Models",
+          "content": "Are you sure you want to disable all models for \"{name}\"?",
+          "confirm": "Disable All"
+        },
+        "configModels": {
+          "title": "Configure Model List"
+        },
+        "verify": {
+          "missingFields": "Please enter API Key and API URL",
+          "failed": "Verification failed",
+          "success": "Verification successful"
+        },
+        "addCustomProvider": {
+          "title": "Add Custom Provider",
+          "description": "Please fill in the necessary information for the provider",
+          "name": "Name",
+          "namePlaceholder": "Please enter the provider name",
+          "apiType": "API Type",
+          "apiTypePlaceholder": "Please select the API type",
+          "apiKey": "API Key",
+          "apiKeyPlaceholder": "Please enter the API Key",
+          "baseUrl": "Base URL",
+          "baseUrlPlaceholder": "Please enter the base URL",
+          "enable": "Enable Provider"
+        },
+        "deleteProvider": {
+          "title": "Delete Provider",
+          "content": "Are you sure you want to delete provider \"{name}\"? This action cannot be undone.",
+          "confirm": "Delete"
+        },
+        "deleteModel": {
+          "title": "Confirm Delete Model",
+          "content": "Are you sure you want to delete model \"{name}\"? This action cannot be undone.",
+          "confirm": "Delete"
+        },
+        "pullModel": {
+          "title": "Pull Model",
+          "pull": "Pull"
+        }
+      },
+      "pullModels": "Pull Models",
+      "refreshModels": "Refresh Models",
+      "modelsRunning": "Models Running",
+      "runningModels": "Running Models",
+      "noRunningModels": "No Running Models",
+      "deleteModel": "Delete Model",
+      "deleteModelConfirm": "Are you sure you want to delete model \"{name}\"? This action cannot be undone.",
+      "noLocalModels": "No Local Models",
+      "localModels": "Local Models"
+    }
+  },
+  "welcome": {
+    "steps": {
+      "welcome": {
+        "title": "Welcome",
+        "description": "Let's start setting up DeepChat"
+      },
+      "provider": {
+        "title": "Model Provider",
+        "description": "Choose your preferred model provider"
+      },
+      "configuration": {
+        "title": "Model Configuration",
+        "description": "Configure the models you want to use"
+      },
+      "complete": {
+        "title": "Complete",
+        "description": "All set and ready to go!"
+      }
+    },
+    "title": "Welcome to DeepChat",
+    "description": "Let's complete the setup process",
+    "provider": {
+      "select": "Select Provider",
+      "apiUrl": "API URL",
+      "apiKey": "API Key",
+      "verifyLink": "Verify Link"
+    },
+    "complete": {
+      "title": "All Done!",
+      "description": "You've completed the setup process, let's get started!"
+    },
+    "buttons": {
+      "getStarted": "Get Started",
+      "next": "Next",
+      "back": "Back"
+    }
+  },
+  "newThread": {
+    "greeting": "Hello",
+    "prompt": "What would you like to ask today?"
+  },
+  "about": {
+    "title": "DeepChat",
+    "version": "Version: {0}",
+    "description": "DeepChat is a cross-platform AI client, dedicated to making AI accessible to more people.",
+    "website": "Visit Our Website",
+    "deviceInfo": {
+      "title": "Device Information",
+      "platform": "Platform",
+      "arch": "Architecture",
+      "cpuModel": "CPU Model",
+      "totalMemory": "Total Memory",
+      "osVersion": "System Version"
+    },
+    "disclaimerButton": "Disclaimer",
+    "disclaimerTitle": "Terms of Use Statement",
+    "checkUpdateButton": "Check for Updates"
+  },
+  "searchDisclaimer": "DeepChat is only an auxiliary tool that organizes and summarizes public data returned by search engines when users actively initiate searches, helping users view and understand search results more conveniently.\n1. Use of Public Data\nThis software only processes data that is publicly available on target websites or search engines without requiring login. Before using, please be sure to review and comply with the terms of service of the target website or search engine to ensure your usage is legal and compliant.\n2. Information Accuracy and Responsibility\nThe content organized and generated by this software is for reference only and does not constitute any form of legal, business, or other advice. The developers make no guarantees regarding the accuracy, completeness, timeliness, or legality of search results, and any consequences arising from the use of this software are solely the responsibility of the user.\n3. Disclaimer Clause\nThis software is provided \"as is,\" and the developers do not assume any express or implied warranty or responsibility for its performance, stability, or applicability. In the process of using this software, the developers assume no responsibility for any disputes, losses, or legal liabilities arising from violations of relevant laws and regulations or the rules of the target website.\n4. User Self-Discipline\nBefore using this software, users should fully understand and confirm that their use will not infringe upon the intellectual property rights, trade secrets, or other legitimate rights of others. Any legal disputes and consequences arising from improper use of this software by users are the sole responsibility of the users.\nUse of this software indicates that the user has read, understood, and agreed to all terms of this disclaimer. If you have any questions, please consult a professional legal advisor.",
+  "artifacts": {
+    "clickToOpen": "Click to Open",
+    "codeSnippet": "Code Snippet",
+    "function": "Function",
+    "class": "Class",
+    "vueComponent": "Vue Component",
+    "moduleImport": "Module Import",
+    "variableDefinition": "{name} Variable Definition",
+    "markdownDocument": "Markdown Document",
+    "htmlDocument": "HTML Document",
+    "svgImage": "SVG Image",
+    "flowchart": "Flowchart",
+    "sequenceDiagram": "Sequence Diagram",
+    "classDiagram": "Class Diagram",
+    "stateDiagram": "State Diagram",
+    "erDiagram": "ER Diagram",
+    "ganttChart": "Gantt Chart",
+    "pieChart": "Pie Chart",
+    "mermaidDiagram": "Mermaid Diagram",
+    "flowchartOf": "Flowchart of {name}",
+    "sequenceDiagramBetween": "Sequence Diagram between {participants}",
+    "classDiagramOf": "Class Diagram of {name}",
+    "stateDiagramOf": "State Diagram of {name}",
+    "erDiagramOf": "ER Diagram of {name}",
+    "pieChartOf": "Pie Chart of {name}",
+    "unknownDocument": "Unknown Document",
+    "preview": "Preview",
+    "code": "Code",
+    "export": "Export"
+  }
+}

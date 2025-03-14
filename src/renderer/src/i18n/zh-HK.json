@@ -1,0 +1,343 @@
+{
+  "common": {
+    "enabled": "已啟用",
+    "disabled": "已禁用",
+    "loading": "加載中...",
+    "copySuccess": "已複製!",
+    "copyCode": "複製代碼",
+    "copy": "複製",
+    "paste": "粘貼",
+    "newChat": "新會話",
+    "newTopic": "新話題",
+    "cancel": "取消",
+    "close": "關閉",
+    "error": {
+      "requestFailed": "請求失敗...",
+      "createChatFailed": "創建會話失敗",
+      "selectChatFailed": "選擇會話失敗",
+      "renameChatFailed": "重命名會話失敗",
+      "deleteChatFailed": "刪除會話失敗",
+      "userCanceledGeneration": "用戶取消了生成",
+      "sessionInterrupted": "會話意外中斷，生成未完成",
+      "noModelResponse": "模型未返回任何內容，可能是超時了",
+      "cleanMessagesFailed": "清空會話消息失敗"
+    },
+    "resetDataConfirmTitle": "確定要重置所有數據嗎？",
+    "resetDataConfirmDescription": "這將會把所有數據恢復到默認設置。此操作無法撤銷。",
+    "proxyMode": "代理模式",
+    "proxyModeSelect": "選擇代理模式",
+    "proxyModeSystem": "系統代理",
+    "proxyModeNone": "不使用代理",
+    "proxyModeCustom": "自定義代理",
+    "customProxyUrl": "自定義代理地址",
+    "customProxyUrlPlaceholder": "例如: http://127.0.0.1:7890",
+    "invalidProxyUrl": "無效的代理地址，請輸入有效的 http/https URL"
+  },
+  "routes": {
+    "chat": "聊天",
+    "welcome": "歡迎",
+    "settings": "設置",
+    "settings-common": "通用設置",
+    "settings-provider": "服務商設置",
+    "settings-about": "關於"
+  },
+  "chat": {
+    "input": {
+      "placeholder": "輸入消息...",
+      "fileArea": "文件區域",
+      "inputArea": "輸入區域",
+      "functionSwitch": "功能開關",
+      "fileSelect": "選擇文件"
+    },
+    "features": {
+      "deepThinking": "深度思考",
+      "webSearch": "網絡搜索",
+      "deepThinkingProgress": "深度思考中...",
+      "thinkingDuration": "（用時 {0} 秒）",
+      "artifactThinking": "artifact 思考"
+    },
+    "search": {
+      "results": "已搜索到{0}個網頁",
+      "searching": "搜索中...",
+      "title": "搜索結果",
+      "description": "共找到 {0} 條相關結果"
+    }
+  },
+  "model": {
+    "search": {
+      "placeholder": "搜索模型..."
+    },
+    "error": {
+      "loadFailed": "加載模型失敗"
+    },
+    "type": {
+      "custom": "自定義模型",
+      "official": "官方模型"
+    },
+    "add": {
+      "namePlaceholder": "模型名稱",
+      "idPlaceholder": "模型ID",
+      "contextLengthPlaceholder": "上下文長度",
+      "maxTokensPlaceholder": "最大token"
+    },
+    "actions": {
+      "add": "添加模型",
+      "enableAll": "啟用全部",
+      "disableAll": "禁用全部"
+    },
+    "tags": {
+      "reasoning": "推理",
+      "chat": "對話",
+      "code": "代碼",
+      "writing": "寫作",
+      "analysis": "分析"
+    }
+  },
+  "thread": {
+    "actions": {
+      "rename": "重命名",
+      "delete": "刪除",
+      "cleanMessages": "清空消息"
+    }
+  },
+  "dialog": {
+    "cancel": "取消",
+    "confirm": "確認",
+    "close": "關閉",
+    "delete": {
+      "title": "確定要刪除這個會話嗎？",
+      "description": "此操作無法撤銷，請謹慎操作。",
+      "confirm": "刪除"
+    },
+    "rename": {
+      "title": "重命名會話",
+      "description": "請輸入新的會話名稱。"
+    },
+    "error": {
+      "title": "錯誤"
+    },
+    "cleanMessages": {
+      "title": "清空會話消息",
+      "description": "清空消息會刪除會話下所有消息和文件，確定要繼續嗎？",
+      "confirm": "清空"
+    }
+  },
+  "settings": {
+    "title": "設置",
+    "common": {
+      "title": "通用設置",
+      "resetData": "重置數據",
+      "language": "語言",
+      "languageSelect": "選擇語言",
+      "searchEngine": "搜索引擎",
+      "searchEngineSelect": "選擇搜索引擎",
+      "searchAssistantModel": "搜索助手模型",
+      "selectModel": "選擇模型",
+      "proxyMode": "代理模式",
+      "proxyModeSelect": "選擇代理模式",
+      "proxyModeSystem": "系統代理",
+      "proxyModeNone": "不使用代理",
+      "proxyModeCustom": "自定義代理",
+      "customProxyUrl": "自定義代理地址",
+      "customProxyUrlPlaceholder": "例如: http://127.0.0.1:7890",
+      "invalidProxyUrl": "無效的代理地址，請輸入有效的 http/https URL"
+    },
+    "model": {
+      "title": "模型設置",
+      "systemPrompt": {
+        "label": "系統提示詞",
+        "placeholder": "請輸入系統提示詞...",
+        "description": "設置AI助手的系統提示詞，用於定義其行為和角色"
+      },
+      "temperature": {
+        "label": "模型溫度",
+        "description": "控制輸出的隨機性，較高的值會產生更具創造性的響應"
+      },
+      "contextLength": {
+        "label": "上下文長度",
+        "description": "設置對話上下文的最大長度"
+      },
+      "responseLength": {
+        "label": "返回文本長度",
+        "description": "設置AI響應的最大長度"
+      },
+      "artifacts": {
+        "description": "啟用Artifacts功能允許AI生成更豐富的內容"
+      }
+    },
+    "provider": {
+      "enable": "開啟服務",
+      "urlPlaceholder": "請輸入API URL",
+      "keyPlaceholder": "請輸入API Key",
+      "verifyKey": "驗證密鑰",
+      "howToGet": "如何獲取",
+      "getKeyTip": "請前往",
+      "getKeyTipEnd": "獲取API Key",
+      "urlFormat": "API範例：{defaultUrl}",
+      "modelList": "模型列表",
+      "enableModels": "模型已經啟用",
+      "verifyLink": "驗證鏈接",
+      "syncModelsFailed": "同步模型失敗...",
+      "addCustomProvider": "添加自定義服務商",
+      "disableAllModels": "禁用全部模型",
+      "delete": "刪除",
+      "stopModel": "停止模型",
+      "pulling": "拉取中...",
+      "runModel": "運行模型",
+      "dialog": {
+        "disableModel": {
+          "title": "確認禁用模型",
+          "content": "是否確認禁用模型 \"{name}\"？",
+          "confirm": "禁用"
+        },
+        "configModels": {
+          "title": "配置模型列表"
+        },
+        "disableAllModels": {
+          "title": "確認禁用全部模型",
+          "content": "是否確認禁用 \"{name}\" 的全部模型？",
+          "confirm": "全部禁用"
+        },
+        "verify": {
+          "missingFields": "請輸入 API Key 和 API URL",
+          "failed": "驗證失敗",
+          "success": "驗證成功"
+        },
+        "addCustomProvider": {
+          "title": "添加自定義服務商",
+          "description": "請填寫服務商的必要信息",
+          "name": "名稱",
+          "namePlaceholder": "請輸入服務商名稱",
+          "apiType": "API類型",
+          "apiTypePlaceholder": "請選擇API類型",
+          "apiKey": "API密鑰",
+          "apiKeyPlaceholder": "請輸入API密鑰",
+          "baseUrl": "API基礎地址",
+          "baseUrlPlaceholder": "請輸入API基礎地址",
+          "enable": "啟用服務商"
+        },
+        "deleteProvider": {
+          "title": "確認刪除服務商",
+          "content": "是否確認刪除服務商 \"{name}\"？此操作不可恢復。",
+          "confirm": "刪除"
+        },
+        "deleteModel": {
+          "title": "確認刪除模型",
+          "content": "是否確認刪除模型 \"{name}\"？此操作不可恢復。",
+          "confirm": "刪除"
+        },
+        "pullModel": {
+          "title": "拉取模型",
+          "pull": "拉取"
+        }
+      },
+      "pullModels": "拉取模型",
+      "refreshModels": "刷新模型",
+      "modelsRunning": "模型正在運行",
+      "runningModels": "運行中的模型",
+      "noRunningModels": "沒有運行中的模型",
+      "deleteModel": "刪除模型",
+      "deleteModelConfirm": "是否確認刪除模型 \"{name}\"？此操作不可恢復。",
+      "noLocalModels": "沒有本地模型",
+      "localModels": "本地模型"
+    }
+  },
+  "welcome": {
+    "steps": {
+      "welcome": {
+        "title": "歡迎",
+        "description": "讓我們開始設置 DeepChat"
+      },
+      "provider": {
+        "title": "模型服務商",
+        "description": "選擇您偏好的模型服務商"
+      },
+      "configuration": {
+        "title": "模型配置",
+        "description": "配置您想要使用的模型"
+      },
+      "complete": {
+        "title": "完成",
+        "description": "一切就緒，可以開始使用了！"
+      }
+    },
+    "title": "歡迎使用 DeepChat",
+    "description": "讓我們一起完成設置過程",
+    "provider": {
+      "select": "選擇服務商",
+      "apiUrl": "API 地址",
+      "apiKey": "API 密鑰",
+      "verifyLink": "驗證鏈接"
+    },
+    "complete": {
+      "title": "全部完成！",
+      "description": "您已完成設置過程，讓我們開始吧！"
+    },
+    "buttons": {
+      "getStarted": "開始使用",
+      "next": "下一步",
+      "back": "返回"
+    }
+  },
+  "newThread": {
+    "greeting": "你好呀",
+    "prompt": "今天你想問點什麼？"
+  },
+  "about": {
+    "title": "DeepChat",
+    "description": "DeepChat是一個跨平台AI客戶端，致力於讓更多人便捷地使用AI。",
+    "website": "訪問我們的網站",
+    "disclaimerButton": "免責聲明",
+    "disclaimerTitle": "使用條款聲明",
+    "checkUpdateButton": "檢查更新",
+    "deviceInfo": {
+      "title": "設備信息",
+      "platform": "平台",
+      "arch": "架構",
+      "cpuModel": "CPU 型號",
+      "totalMemory": "總記憶體",
+      "osVersion": "系統版本"
+    }
+  },
+  "update": {
+    "newVersion": "發現新版本",
+    "version": "版本",
+    "releaseDate": "發布日期",
+    "releaseNotes": "更新內容",
+    "later": "稍後再說",
+    "githubDownload": "Github下載",
+    "netdiskDownload": "網盤下載",
+    "checkUpdate": "檢查更新"
+  },
+  "searchDisclaimer": "DeepChat 僅作為輔助工具，使用者在主動發起搜索時，對搜索引擎返回的公開數據進行整理和總結，幫助使用者更方便地查看和理解搜索結果。\n\n1. **公開數據使用**  \n本軟件僅處理目標網站或搜索引擎公開、無需登錄即可訪問的數據。使用者在使用前，請務必查閱並遵守目標網站或搜索引擎的服務條款，確保其使用行為合法合規。  \n\n2. **信息準確性與責任**  \n本軟件所整理和生成的內容僅供參考，並不構成任何形式的法律、商業或其他建議。開發者對搜索結果的準確性、完整性、及時性或合法性不作任何保證，因使用本軟件所產生的任何後果均由使用者自行承擔。  \n\n3. **免責條款**  \n本軟件以\"現狀\"提供，開發者不對其性能、穩定性及適用性承擔任何明示或暗示的保證或責任。使用者使用本軟件的過程中，如因違反相關法律法規或目標網站規定而引發的任何爭議、損失或法律責任，開發者均不承擔任何責任。  \n\n4. **使用者自律**  \n使用者在使用本軟件前，應充分了解並確認自己的使用行為不會侵犯他人的知識產權、商業秘密或其他合法權益。對於因使用者不當使用本軟件而產生的任何法律糾紛和後果，均由使用者自行負責。  \n\n使用本軟件即表示使用者已閱讀、理解並同意本免責聲明的所有條款。如有疑問，請諮詢專業法律顧問。",
+  "artifacts": {
+    "clickToOpen": "點擊打開",
+    "codeSnippet": "程式碼片段",
+    "function": "函數",
+    "class": "類",
+    "vueComponent": "Vue 元件",
+    "moduleImport": "模組導入",
+    "variableDefinition": "{name} 變量定義",
+    "markdownDocument": "Markdown 文檔",
+    "htmlDocument": "HTML 文檔",
+    "svgImage": "SVG 圖像",
+    "flowchart": "流程圖",
+    "sequenceDiagram": "時序圖",
+    "classDiagram": "類圖",
+    "stateDiagram": "狀態圖",
+    "erDiagram": "ER圖",
+    "ganttChart": "甘特圖",
+    "pieChart": "餅圖",
+    "mermaidDiagram": "Mermaid 圖表",
+    "flowchartOf": "{name}的流程圖",
+    "sequenceDiagramBetween": "{participants}之間的時序圖",
+    "classDiagramOf": "{name}的類圖",
+    "stateDiagramOf": "{name}的狀態圖",
+    "erDiagramOf": "{name}的ER圖",
+    "pieChartOf": "{name}的餅圖",
+    "unknownDocument": "未知文檔",
+    "preview": "預覽",
+    "code": "代碼",
+    "export": "導出"
+  }
+}

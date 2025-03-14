@@ -1,0 +1,343 @@
+{
+  "common": {
+    "enabled": "활성화",
+    "disabled": "비활성화",
+    "loading": "로딩 중...",
+    "copySuccess": "복사 완료!",
+    "copyCode": "코드 복사",
+    "copy": "복사",
+    "paste": "붙여넣기",
+    "newChat": "새 채팅",
+    "newTopic": "새 주제",
+    "cancel": "취소",
+    "close": "닫기",
+    "error": {
+      "requestFailed": "요청 실패...",
+      "createChatFailed": "채팅 생성 실패",
+      "selectChatFailed": "채팅 선택 실패",
+      "renameChatFailed": "채팅 이름 변경 실패",
+      "deleteChatFailed": "채팅 삭제 실패",
+      "cleanMessagesFailed": "메시지 정리 실패",
+      "userCanceledGeneration": "사용자가 생성을 취소했습니다",
+      "sessionInterrupted": "세션이 예기치 않게 중단되었습니다. 생성이 완료되지 않았습니다",
+      "noModelResponse": "모델에서 콘텐츠를 반환하지 않았습니다. 시간 초과되었을 수 있습니다"
+    },
+    "resetDataConfirmTitle": "모든 데이터 초기화?",
+    "resetDataConfirmDescription": "이렇게 하면 모든 데이터가 기본 설정으로 초기화됩니다. 이 작업은 취소할 수 없습니다.",
+    "proxyMode": "프록시 모드",
+    "proxyModeSelect": "프록시 모드 선택",
+    "proxyModeSystem": "시스템 프록시",
+    "proxyModeNone": "프록시 사용 안 함",
+    "proxyModeCustom": "사용자 정의 프록시",
+    "customProxyUrl": "사용자 정의 프록시 URL",
+    "customProxyUrlPlaceholder": "예: http://127.0.0.1:7890",
+    "invalidProxyUrl": "잘못된 프록시 URL, 유효한 http/https URL을 입력하세요"
+  },
+  "update": {
+    "newVersion": "새 버전 발견",
+    "version": "버전",
+    "releaseDate": "출시일",
+    "releaseNotes": "릴리스 노트",
+    "later": "나중에",
+    "githubDownload": "Github 다운로드",
+    "netdiskDownload": "클라우드 다운로드",
+    "checkUpdate": "업데이트 확인"
+  },
+  "routes": {
+    "chat": "채팅",
+    "welcome": "환영합니다",
+    "settings": "설정",
+    "settings-common": "일반 설정",
+    "settings-provider": "제공자 설정",
+    "settings-about": "정보"
+  },
+  "chat": {
+    "input": {
+      "placeholder": "메시지를 입력하세요...",
+      "fileArea": "파일 영역",
+      "inputArea": "입력 영역",
+      "functionSwitch": "기능 전환",
+      "fileSelect": "파일 선택 버튼"
+    },
+    "features": {
+      "deepThinking": "심층 사고",
+      "webSearch": "웹 검색",
+      "deepThinkingProgress": "심층 사고 진행 중...",
+      "thinkingDuration": "({0}초 소요)",
+      "artifactThinking": "인공물 사고"
+    },
+    "search": {
+      "results": "{0}개의 웹 페이지를 찾았습니다",
+      "searching": "검색 중...",
+      "title": "검색 결과",
+      "description": "{0}개의 관련 결과를 찾았습니다"
+    }
+  },
+  "model": {
+    "search": {
+      "placeholder": "모델 검색..."
+    },
+    "error": {
+      "loadFailed": "모델 로드 실패"
+    },
+    "type": {
+      "custom": "커스텀 모델",
+      "official": "공식 모델"
+    },
+    "add": {
+      "namePlaceholder": "모델 이름",
+      "idPlaceholder": "모델 ID",
+      "contextLengthPlaceholder": "컨텍스트 길이",
+      "maxTokensPlaceholder": "최대 토큰"
+    },
+    "actions": {
+      "add": "모델 추가",
+      "enableAll": "모두 활성화",
+      "disableAll": "모두 비활성화"
+    },
+    "tags": {
+      "reasoning": "추론",
+      "chat": "채팅",
+      "code": "코드",
+      "writing": "글쓰기",
+      "analysis": "분석"
+    }
+  },
+  "thread": {
+    "actions": {
+      "rename": "이름 변경",
+      "delete": "삭제",
+      "cleanMessages": "메시지 정리"
+    }
+  },
+  "dialog": {
+    "cancel": "취소",
+    "confirm": "확인",
+    "close": "닫기",
+    "delete": {
+      "title": "이 채팅을 삭제하시겠습니까?",
+      "description": "이 작업은 취소할 수 없으므로 주의해서 진행하십시오.",
+      "confirm": "삭제"
+    },
+    "rename": {
+      "title": "채팅 이름 변경",
+      "description": "새 채팅 이름을 입력하세요."
+    },
+    "error": {
+      "title": "오류"
+    },
+    "cleanMessages": {
+      "title": "채팅 메시지 정리",
+      "description": "메시지를 정리하면 이 대화의 모든 메시지와 파일이 삭제됩니다. 계속하시겠습니까?",
+      "confirm": "정리"
+    }
+  },
+  "settings": {
+    "title": "설정",
+    "common": {
+      "title": "일반 설정",
+      "resetData": "데이터 초기화",
+      "language": "언어",
+      "languageSelect": "언어 선택",
+      "searchEngine": "검색 엔진",
+      "searchEngineSelect": "검색 엔진 선택",
+      "searchAssistantModel": "검색 보조 모델",
+      "selectModel": "모델 선택",
+      "proxyMode": "프록시 모드",
+      "proxyModeSelect": "프록시 모드 선택",
+      "proxyModeSystem": "시스템 프록시",
+      "proxyModeNone": "프록시 사용 안 함",
+      "proxyModeCustom": "사용자 정의 프록시",
+      "customProxyUrl": "사용자 정의 프록시 URL",
+      "customProxyUrlPlaceholder": "예: http://127.0.0.1:7890",
+      "invalidProxyUrl": "잘못된 프록시 URL, 유효한 http/https URL을 입력하세요"
+    },
+    "model": {
+      "title": "모델 설정",
+      "systemPrompt": {
+        "label": "시스템 프롬프트",
+        "placeholder": "시스템 프롬프트를 입력하세요...",
+        "description": "AI 어시스턴트의 행동과 역할을 정의하는 시스템 프롬프트 설정"
+      },
+      "temperature": {
+        "label": "모델 온도",
+        "description": "출력의 무작위성을 제어합니다. 값이 높을수록 더 창의적인 응답이 생성됩니다"
+      },
+      "contextLength": {
+        "label": "컨텍스트 길이",
+        "description": "대화 컨텍스트의 최대 길이 설정"
+      },
+      "responseLength": {
+        "label": "응답 길이",
+        "description": "AI 응답의 최대 길이 설정"
+      },
+      "artifacts": {
+        "description": "인공물 기능을 활성화하면 AI가 더 풍부한 콘텐츠를 생성할 수 있습니다"
+      }
+    },
+    "provider": {
+      "enable": "서비스 활성화",
+      "urlPlaceholder": "API URL을 입력하세요",
+      "keyPlaceholder": "API 키를 입력하세요",
+      "verifyKey": "키 확인",
+      "howToGet": "얻는 방법",
+      "getKeyTip": "다음으로 이동하세요",
+      "getKeyTipEnd": "API 키를 얻으려면",
+      "modelList": "모델 목록",
+      "enableModels": "모델 활성화",
+      "disableAllModels": "모든 모델 비활성화",
+      "modelsEnabled": "모델이 활성화되었습니다",
+      "verifyLink": "링크 확인",
+      "syncModelsFailed": "모델 동기화 실패...",
+      "addCustomProvider": "커스텀 제공자 추가",
+      "delete": "삭제",
+      "stopModel": "모델 중지",
+      "pulling": "가져오는 중...",
+      "runModel": "모델 실행",
+      "dialog": {
+        "disableModel": {
+          "title": "모델 비활성화 확인",
+          "content": "모델 \"{name}\"을(를) 비활성화하시겠습니까?",
+          "confirm": "비활성화"
+        },
+        "disableAllModels": {
+          "title": "모든 모델 비활성화 확인",
+          "content": "\"{name}\"의 모든 모델을 비활성화하시겠습니까?",
+          "confirm": "모두 비활성화"
+        },
+        "configModels": {
+          "title": "모델 목록 구성"
+        },
+        "verify": {
+          "missingFields": "API 키와 API URL을 입력하세요",
+          "failed": "확인 실패",
+          "success": "확인 성공"
+        },
+        "addCustomProvider": {
+          "title": "커스텀 제공자 추가",
+          "description": "제공자에 필요한 정보를 입력하세요",
+          "name": "이름",
+          "namePlaceholder": "제공자 이름을 입력하세요",
+          "apiType": "API 유형",
+          "apiTypePlaceholder": "API 유형을 선택하세요",
+          "apiKey": "API 키",
+          "apiKeyPlaceholder": "API 키를 입력하세요",
+          "baseUrl": "기본 URL",
+          "baseUrlPlaceholder": "기본 URL을 입력하세요",
+          "enable": "제공자 활성화"
+        },
+        "deleteProvider": {
+          "title": "제공자 삭제",
+          "content": "제공자 \"{name}\"을(를) 삭제하시겠습니까? 이 작업은 취소할 수 없습니다.",
+          "confirm": "삭제"
+        },
+        "deleteModel": {
+          "title": "모델 삭제 확인",
+          "content": "모델 \"{name}\"을(를) 삭제하시겠습니까? 이 작업은 취소할 수 없습니다.",
+          "confirm": "삭제"
+        },
+        "pullModel": {
+          "title": "모델 가져오기",
+          "pull": "가져오기"
+        }
+      },
+      "pullModels": "모델 가져오기",
+      "refreshModels": "모델 새로고침",
+      "modelsRunning": "실행 중인 모델",
+      "runningModels": "실행 중인 모델",
+      "noRunningModels": "실행 중인 모델 없음",
+      "deleteModel": "모델 삭제",
+      "deleteModelConfirm": "모델 \"{name}\"을(를) 삭제하시겠습니까? 이 작업은 취소할 수 없습니다.",
+      "noLocalModels": "로컬 모델 없음",
+      "localModels": "로컬 모델"
+    }
+  },
+  "welcome": {
+    "steps": {
+      "welcome": {
+        "title": "환영합니다",
+        "description": "DeepChat 설정을 시작합시다"
+      },
+      "provider": {
+        "title": "모델 제공자",
+        "description": "선호하는 모델 제공자를 선택하세요"
+      },
+      "configuration": {
+        "title": "모델 구성",
+        "description": "사용할 모델을 구성하세요"
+      },
+      "complete": {
+        "title": "완료",
+        "description": "모든 설정이 완료되었습니다!"
+      }
+    },
+    "title": "DeepChat에 오신 것을 환영합니다",
+    "description": "설정 과정을 완료합시다",
+    "provider": {
+      "select": "제공자 선택",
+      "apiUrl": "API URL",
+      "apiKey": "API 키",
+      "verifyLink": "링크 확인"
+    },
+    "complete": {
+      "title": "모두 완료!",
+      "description": "설정 과정을 완료했습니다. 시작해볼까요!"
+    },
+    "buttons": {
+      "getStarted": "시작하기",
+      "next": "다음",
+      "back": "뒤로"
+    }
+  },
+  "newThread": {
+    "greeting": "안녕하세요",
+    "prompt": "오늘은 무엇을 물어보시겠습니까?"
+  },
+  "about": {
+    "title": "DeepChat",
+    "description": "DeepChat은 크로스 플랫폼 AI 클라이언트입니다. 더 많은 사람들이 AI의 편리함을 누릴 수 있도록 노력하고 있습니다.",
+    "website": "웹사이트 방문",
+    "disclaimerButton": "면책 조항",
+    "disclaimerTitle": "이용 약관 면책 조항",
+    "checkUpdateButton": "업데이트 확인",
+    "deviceInfo": {
+      "title": "장치 정보",
+      "platform": "플랫폼",
+      "arch": "아키텍처",
+      "cpuModel": "CPU 모델",
+      "totalMemory": "총 메모리",
+      "osVersion": "시스템 버전"
+    }
+  },
+  "searchDisclaimer": "DeepChat은 사용자가 적극적으로 검색을 시작할 때 검색 엔진에서 반환한 공개 데이터를 정리하고 요약하여 사용자가 검색 결과를 더 편리하게 볼 수 있도록 도와주는 보조 도구일 뿐입니다.\n1. 공개 데이터 사용\n이 소프트웨어는 로그인 없이 액세스할 수 있는 대상 웹사이트 또는 검색 엔진에서 공개적으로 사용 가능한 데이터만 처리합니다. 사용하기 전에 대상 웹사이트 또는 검색 엔진의 서비스 약관을 검토하고 준수하여 사용이 합법적이고 규정을 준수하는지 확인하십시오.\n2. 정보 정확성 및 책임\n이 소프트웨어에서 구성 및 생성된 콘텐츠는 참조용일 뿐이며 법적, 비즈니스 또는 기타 조언의 어떤 형태도 구성하지 않습니다. 개발자는 검색 결과의 정확성, 완전성, 적시성 또는 합법성에 대해 보증하지 않으며, 이 소프트웨어 사용으로 인해 발생하는 모든 결과는 전적으로 사용자의 책임입니다.\n3. 면책 조항\n이 소프트웨어는 \"있는 그대로\" 제공되며, 개발자는 성능, 안정성 또는 적용 가능성에 대한 명시적 또는 묵시적 보증이나 책임을 지지 않습니다. 이 소프트웨어를 사용하는 과정에서 관련 법률 및 규정 또는 대상 웹사이트의 규칙 위반으로 인해 발생하는 분쟁, 손실 또는 법적 책임에 대해 개발자는 어떠한 책임도 지지 않습니다.\n4. 사용자 자율 규제\n이 소프트웨어를 사용하기 전에 사용자는 자신의 사용이 타인의 지적 재산권, 영업 비밀 또는 기타 합법적 권리를 침해하지 않는다는 것을 충분히 이해하고 확인해야 합니다. 사용자의 부적절한 소프트웨어 사용으로 인해 발생하는 법적 분쟁 및 결과는 전적으로 사용자의 책임입니다.\n이 소프트웨어를 사용하면 사용자가 이 면책 조항의 모든 조건을 읽고, 이해하고, 동의했음을 나타냅니다. 질문이 있으시면 전문 법률 고문에게 문의하십시오.",
+  "artifacts": {
+    "clickToOpen": "클릭하여 열기",
+    "codeSnippet": "코드 스니펫",
+    "function": "함수",
+    "class": "클래스",
+    "vueComponent": "Vue 컴포넌트",
+    "moduleImport": "모듈 가져오기",
+    "variableDefinition": "{name} 변수 정의",
+    "markdownDocument": "Markdown 문서",
+    "htmlDocument": "HTML 문서",
+    "svgImage": "SVG 이미지",
+    "flowchart": "순서도",
+    "sequenceDiagram": "시퀀스 다이어그램",
+    "classDiagram": "클래스 다이어그램",
+    "stateDiagram": "상태 다이어그램",
+    "erDiagram": "ER 다이어그램",
+    "ganttChart": "간트 차트",
+    "pieChart": "파이 차트",
+    "mermaidDiagram": "Mermaid 다이어그램",
+    "flowchartOf": "{name}의 순서도",
+    "sequenceDiagramBetween": "{participants} 간의 시퀀스 다이어그램",
+    "classDiagramOf": "{name}의 클래스 다이어그램",
+    "stateDiagramOf": "{name}의 상태 다이어그램",
+    "erDiagramOf": "{name}의 ER 다이어그램",
+    "pieChartOf": "{name}의 파이 차트",
+    "unknownDocument": "알 수 없는 문서",
+    "preview": "미리보기",
+    "code": "코드",
+    "export": "내보내기"
+  }
+}
